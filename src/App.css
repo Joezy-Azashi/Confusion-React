@@ -1,0 +1,105 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: #93b378;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.navbar-dark {
+    background-color: #512DA8;
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
+
+/* my css */
+.header{
+background-color: white;
+position: fixed;
+width: 100%;
+z-index: 1;
+}
+
+.menuitems{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+margin-right: 30px;
+}
+
+.brandname{
+    color: #512DA8;
+}
+
+.border-radius{
+    border-radius: 15px;
+}
+
+.banner{
+    /* position: relative; */
+    top: 60px;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media only screen and (max-width:900px){
+    h1{
+        font-size: 15px;
+    }
+    p{
+        font-size: 10px;
+    }
+
+    .banner{
+        position: relative;
+        top: 70px;
+    }
+}
